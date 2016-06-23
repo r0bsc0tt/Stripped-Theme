@@ -1,0 +1,98 @@
+/******************************************************************
+Theme Name: Stripped
+Theme URI: http://robjscott.com/wordpress/themes/stripped
+Description: This is a stripped down HTML5 WordPress theme for customization. 
+Author: r0bsc0tt
+Author URI: http://robjscott.com
+Version: 0.1
+Tags: custom-colors
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stripped
+******************************************************************/
+
+/*remove these */
+	.r0bsc0tt-social-icons{
+		display: inline-block;
+		font-size: 1.25em;
+    	margin: 0 0.5em;
+    	text-decoration: none;
+	}
+	.r0bsc0tt-social-icons span{
+		display: none;
+	}
+	.r0bsc0tt-social-icons:before {
+		font-family: 'Genericons';
+	}
+
+	.r0bsc0tt-social-icons:hover::before, .r0bsc0tt-social-icons:focus::before{
+
+	}
+
+	
+	#r0bsc0tt-social-facebook:before{content: '\f204';}
+	#r0bsc0tt-social-twitter:before{content: '\f202';}
+	#r0bsc0tt-social-google:before{content: '\f206';}
+	#r0bsc0tt-social-linkedin:before{content: '\f207';}
+	#r0bsc0tt-social-pinterest:before{content: '\f209';}
+	#r0bsc0tt-social-flickr:before{content: '\f211';}
+	#r0bsc0tt-social-vimeo:before{content: '\f212';}
+	#r0bsc0tt-social-youtube:before{content: '\f213';}
+	#r0bsc0tt-social-tumblr:before{content: '\f214';}
+	#r0bsc0tt-social-instagram:before{content: '\f215';}
+	#r0bsc0tt-social-github:before{content: '\f200';}
+	#r0bsc0tt-social-dribble:before{content: '\f201';}
+	#r0bsc0tt-social-wordpress:before{content: '\f205';}
+	#r0bsc0tt-social-codepen:before{content: '\f216';}
+	#r0bsc0tt-social-polldaddy:before{content: '\f217';}
+	#r0bsc0tt-social-path:before{content: '\f219';}
+	#r0bsc0tt-social-skype:before{content: '\f220';}
+	#r0bsc0tt-social-digg:before{content: '\f221';}
+	#r0bsc0tt-social-reddit:before{content: '\f222';}
+	#r0bsc0tt-social-stumbleupon:before{content: '\f223';}
+	#r0bsc0tt-social-pocket:before{content: '\f224';}
+	#r0bsc0tt-social-dropbox:before{content: '\f225';}				
+	#r0bsc0tt-social-foursquare:before{content: '\f226';}
+
+.author {
+  display: block;
+  margin: 0 auto;
+}
+
+.author .author-avatar {
+  display: inline-block;
+  height: 75px;
+  width: 75px;
+}
+
+.author .author-avatar img {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+.author .author-info {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  display: inline-block;
+  height: auto;
+  line-height: 1;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  vertical-align: top;
+  
+}
+
+.author .author-info a, .author .author-info time {
+  display: block;
+  width: 100%;
+}
+
+.author .author-info a span {
+
+}
+
+.author p {
+  margin: 0;
+}
