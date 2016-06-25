@@ -11,6 +11,16 @@ Tags: custom-colors
 Text Domain: stripped
 ******************************************************************/
 
-.sticky {}
-.gallery-caption {}
-.bypostauthor {}
+.sticky {}          /* DO NOT EDIT THIS */
+.gallery-caption {} /* THESE ARE USELESS */
+.bypostauthor {}    /* THEY ARE ONLY TO KEEP THEME CHECK HAPPY */
+
+
+/* remove these */
+.alignright{}
+.alignleft{}
+.aligncenter{}
+
+.wp-caption{}
+.wp-caption-text{}
+.screen-reader-text

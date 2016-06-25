@@ -157,7 +157,7 @@ function r0bsc0tt_author_info(){ ?>
 <div class="author">
   <div class="author-avatar"> 
     <a class="author-link" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author">
-      <?php echo get_avatar( get_the_author_meta( 'user_email' ), $author_bio_avatar_size );?>
+      <?php echo get_avatar( get_the_author_meta( 'user_email' ) );?>
     </a>
   </div>
   <div class="author-info">

@@ -16,7 +16,10 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 								<header class="article-header">
-
+										<?php //use the slider named homepage
+									  if(function_exists('eazy_flickity_slider_homepage')){
+									    eazy_flickity_slider_homepage(); 
+									  }?>
 									<h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
 
 								</header>
